@@ -3,7 +3,7 @@
 
 {% block content %}
 <div class="content-module index-headline">
-<h1>UX design and other important things</h1>
+<h1>Let's make awesome things together</h1>
 </div>
 
 <!-- projects part 1 -->
@@ -79,23 +79,27 @@
 <div class="content-module flex overlap-top">
 	<div class="project-tile third dd-badging">
 	<div class="image">
+		<a href="dd-badging.html">
 		<div class="text-wrap">
 		<div class="text">
 		<h4 class="link">App Badging Syntax</h4>
 		<div class="body-subhead">for Dunkin Donuts</div>
 		</div>
 		</div>
+		</a>
 	</div>
 	</div>
 
 	<div class="project-tile third mbhp">	
 		<div class="image">
+			<a href="mbhp.html">
 			<div class="text-wrap">
 			<div class="text">
 			<h4 class="link">Visual Identity System</h4>
 			<div class="body-subhead">for MBHP</div>
 			</div>
 			</div>
+			</a>
 		</div>
 	</div>
 </div>
@@ -103,23 +107,27 @@
 <div class="content-module flex">
 	<div class="project-tile third bofa-heuristics">
 	<div class="image">
+		<a href="bofa-heuristics.html">
 		<div class="text-wrap">
 		<div class="text">
 		<h4 class="link">Microsite Heuristics Report</h4>
 		<div class="body-subhead">for Bank of America</div>
 		</div>
 		</div>
+		</a>
 	</div>
 	</div>
 
 	<div class="project-tile third bfweb">	
 		<div class="image">
+			<a href="bfweb.html">
 			<div class="text-wrap">
 			<div class="text">
 			<h4 class="link">Secure Login Sites</h4>
 			<div class="body-subhead">for Financial Clients</div>
 			</div>
 			</div>
+			</a>
 		</div>
 	</div>
 </div>
@@ -127,12 +135,14 @@
 <div class="content-module flex overlap-bottom">
 	<div class="project-tile third ml-content-hub">
 	<div class="image">
+		<a href="ml-content-hub.html">
 		<div class="text-wrap">
 		<div class="text">
 		<h4 class="link">Intranet Content Hub</h4>
-		<div class="body-subhead">for Merill Lynch</div>
+		<div class="body-subhead">for Merrill Lynch</div>
 		</div>
 		</div>
+		</a>
 	</div>
 	</div>
 </div>

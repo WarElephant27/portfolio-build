@@ -1,3 +1,15 @@
 footer {
 	background: $darker_gray;
+	font-family: $palanquin;
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+	color: $light_gray;
+	text-align: center;
+	overflow-y: auto;
+
+	.content-module {
+		margin-top: 6rem;
+		margin-bottom: 0;
+		padding: 3rem 0;
+	}
 }
