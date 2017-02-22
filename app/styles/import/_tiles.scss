@@ -1,0 +1,183 @@
+.project-tile {
+	background: $darker_gray;
+	box-shadow: 0px 2px 6px $darker_gray;
+	position: relative;
+
+	.text-wrap {
+		text-align: center;
+		padding: 2rem 2rem 2rem 2rem;
+		background: $darker_gray;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.button {
+			margin-top: 2rem;
+		}
+	}
+
+	&.hero {
+
+		.text-wrap {
+			height: 80vh;
+			width: 66%;
+		}
+	}
+
+	&.half {
+		width: 50%;
+		display: inline-block;
+
+		&:nth-child(1) {
+			margin-right: 0.5rem;
+		}
+
+		&:nth-child(2) {
+			margin-left: 0.5rem;
+		}
+
+		.text-wrap {
+			min-height: 40vh;
+		}
+	}
+
+	&.third {
+		width: 40%;
+		display: inline-block;
+
+		&:nth-child(1) {
+			margin-right: 0.5rem;
+		}
+
+		&:nth-child(2) {
+			margin-left: 0.5rem;
+		}
+
+		.text-wrap {
+			min-height: 22vh;
+		}
+	}
+}
+
+.overlap-top {
+	margin-top: -4rem; 
+}
+
+.overlap-bottom {
+	margin-bottom: -4rem; 
+}
+
+.content-module {
+	&.final {
+		background: $teal_gradient;
+		padding: 6rem;
+		color: $white;
+
+		h1, h2, h3, h4, h5, h6 {
+			color: $white;
+		}
+	}
+}
+
+/*//////////////////////////////////////*/
+/* Project images */
+.project-tile {
+	.image {
+		background-size: cover;
+	}
+}
+
+.bofa-budgeting {
+	.image {
+		background-image: url('../assets/projects/bofa-budgeting/project-sample-2.jpg');
+	}
+}
+
+.veritas-visuals {
+	.image {
+		background-image: url('../assets/projects/veritas-visuals/ui-design.jpg');
+	}
+
+	.text-wrap {
+		width: 50%;
+	}
+}
+
+.veritas-journey, .dd-badging, .bofa-heuristics {
+	position: relative;
+
+	.image {
+		background-repeat: no-repeat;
+		background-size: 60px 60px;
+		background-position: 20% 50%;
+		height: 100%;
+	}
+
+	.text-wrap {
+		width: 66%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		justify-content: flex-start;
+
+		h4, .body-subhead {
+			text-align: left;
+		}
+	}
+}
+
+.veritas-journey {
+	.image {
+		background-image: url('../assets/icons/user-journey.svg');
+	}
+}
+
+.dd-badging {
+	.image {
+		background-image: url('../assets/icons/app.png');
+	}
+}
+
+.bofa-heuristics {
+	.image {
+		background-image: url('../assets/icons/website.png');
+	}
+}
+
+
+
+.me-brochure {
+	.image {
+		background-image: url('../assets/projects/me-brochure/fpo-couple-stock.jpg');
+	}
+
+	.text-wrap {
+		width: 33%;
+		height: 60vh;
+	}
+}
+
+.mbhp, .bfweb, .ml-content-hub {
+	.text-wrap {
+		width: 100%;
+		background: $darker_gray_90;
+	}
+}
+
+.mbhp {
+	.image {
+		background-image: url('../assets/projects/mbhp/shes-a-brick-house.jpg');
+	}
+}
+
+.bfweb {
+	.image {
+		background-image: url('../assets/projects/bfweb/bfweb.jpg');
+	}
+}
+
+.ml-content-hub {
+	.image {
+		background-image: url('../assets/projects/mbhp/shes-a-brick-house.jpg');
+	}
+}

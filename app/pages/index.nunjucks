@@ -1,0 +1,234 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="content-module index-headline">
+<h1>UX design and other important things</h1>
+</div>
+
+<!-- projects part 1 -->
+<div class="content-module project-tile hero bofa-budgeting">
+	<div class="image">
+		<div class="text-wrap">
+		<div class="text">
+			<h4 class="link">Budgeting Tools</h4>
+			<div class="body-subhead">for Bank of America</div>
+			<a href="bofa-budgeting.html"><div class="button">read more</div></a>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="content-module flex">
+	
+	<div class="project-tile half veritas-visuals">
+	<div class="image">
+		<a href="veritas-visuals.html">
+		<div class="text-wrap">
+		<div class="text">
+		<h4 class="link">Visual Concepts</h4>
+		<div class="body-subhead">for Veritas Genetics</div>
+		</div>
+		</div>
+		</a>
+	</div>
+	</div>
+	
+
+	<div class="project-tile half veritas-journey">	
+		<div class="image">
+			<a href="veritas-user-flow.html">
+			<div class="text-wrap">
+			<div class="text">
+			<h4 class="link">User Journey</h4>
+			<div class="body-subhead">for Veritas Genetics</div>
+			</div>
+			</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="content-module project-tile overlap-bottom me-brochure">
+	<div class="image">
+		
+		<div class="text-wrap">
+		<div class="text">
+			<h4 class="link">Digital Brochure</h4>
+			<div class="body-subhead">for Merrill Edge</div>
+			<a href="me-digital-brochure.html">
+			<div class="button">read more</div>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- -->
+
+<!-- About -->
+<div class="content-wrapper about">
+	<div class="content-module">
+		<h2 class="callout">About me</h2>
+		<p class="body">
+		I'm a graphic designer turned 'web designer' turned UX designer looking for work and adventure in the Metro Boston area. I love multi-channel UX, 'service design', emerging tech, wearables and IoT, and VR. I daydream about modular design systems.</p>
+	</div>
+</div>
+<!-- -->
+
+<!-- projects part 2 -->
+<div class="content-module flex overlap-top">
+	<div class="project-tile third dd-badging">
+	<div class="image">
+		<div class="text-wrap">
+		<div class="text">
+		<h4 class="link">App Badging Syntax</h4>
+		<div class="body-subhead">for Dunkin Donuts</div>
+		</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="project-tile third mbhp">	
+		<div class="image">
+			<div class="text-wrap">
+			<div class="text">
+			<h4 class="link">Visual Identity System</h4>
+			<div class="body-subhead">for MBHP</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="content-module flex">
+	<div class="project-tile third bofa-heuristics">
+	<div class="image">
+		<div class="text-wrap">
+		<div class="text">
+		<h4 class="link">Microsite Heuristics Report</h4>
+		<div class="body-subhead">for Bank of America</div>
+		</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="project-tile third bfweb">	
+		<div class="image">
+			<div class="text-wrap">
+			<div class="text">
+			<h4 class="link">Secure Login Sites</h4>
+			<div class="body-subhead">for Financial Clients</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="content-module flex overlap-bottom">
+	<div class="project-tile third ml-content-hub">
+	<div class="image">
+		<div class="text-wrap">
+		<div class="text">
+		<h4 class="link">Intranet Content Hub</h4>
+		<div class="body-subhead">for Merill Lynch</div>
+		</div>
+		</div>
+	</div>
+	</div>
+</div>
+<!-- -->
+
+<!-- Resume -->
+<div class="content-wrapper resume">
+	<div class="content-module">
+		<h3>Work Experience</h3>
+		<a href="images/willenburg-sierra-resume-2017.pdf">
+		<div class="button">download resume pdf</div>
+		</a>
+
+		<ul class="list">
+			<li>
+			<span>UX Designer/Developer (Freelance)</span>  /  Ideometry LLC  /  Boston, MA  /  Oct ‘16 to Dec ’16
+			</li>
+
+			<li>
+			<span>Digital Designer</span>  /  KOR Group  / Boston, MA  /  Jul ‘16 to Oct ’16
+			</li>
+
+			<li>
+			<span>Experience Designer</span>  /  DigitasLBi  /  Boston, MA  /  Mar ‘15 to Jul ‘16</li>
+
+			<li>
+			<span>Cross-Media Designer</span>  /  Boston Globe Media Group  /  Boston, MA  /  Dec ‘14 to Mar ’15
+			</li>
+
+			<li>
+			<span>Visual Designer (Freelance)</span>  /  Studio G at Grossman Marketing Group  /  Sommerville, MA  /  Oct ‘14 to Nov ’14
+			</li>
+
+			<li>
+			<span>Visual Designer (Freelance)</span>  /  WhatArmy  /  Bedford, MA  /  Aug ‘14 to Sep ’14
+			</li>
+
+			<li>
+			<span>UX Architect &amp; UI Designer</span>  /  Boston Financial Data Services  /  Quincy, MA  /  Oct ‘12 to Jun ’14
+			</li>
+
+			<li>
+			<span>Web Designer (Freelance)</span>  /  Cookson Publishing  /  Hanover, NH  /  Sep ‘10 to Jan ’14
+			</li>
+
+			<li>
+			<span>Brand Identity Designer (Volunteer)</span> /  Metropolitan Boston Housing Partnership (MBHP)  /  Sep ‘14 to Oct ’14
+			</li>
+		</ul>
+	</div>
+
+	<div class="content-module">
+		<div>
+		<h3>Skill Set</h3>
+		<ul class="list">
+			<li>
+			<span>Design Tools</span>   /   Adobe Illustrator, InDesign, Experience Design,  &amp; Photoshop
+			</li>
+
+			<li>
+			<span>Prototyping Tools</span>  /  Axure RP, ProtoIO, Flinto, Invision
+			</li>
+
+			<li>
+			<span>Mind Mapping</span>  /  MindJet
+			</li>
+
+			<li>
+			<span>Development Tools</span>  /  HTML5, CSS3, JQuery, NodeJS
+			</li>
+
+			<li>
+			<span>Project Management</span>  /  Jira, Trello, Basecamp, Git/GitHub
+			</li>
+
+			<li>
+			<span>Operating Systems</span>  /  iOS &amp; Windows
+			</li>
+		</ul>
+		</div>
+		<div>
+		<h3>Education</h3>
+		<ul class="list">
+			<li>B.A. in New Media, 2012<br>Lyndon State College</li>
+			<li>A.A. in Graphic Design, 2009<br>Community College of Vermont</li>
+		</ul>
+		</div>
+	</div>
+</div>
+<!-- -->
+
+<!-- Contact -->
+<div class="content-module final contact overlap-top">
+	<p class="body">I'm currently looking for work! Drop me a line:</p>
+	<h4>sierra.willenburg.12 [at] gmail.com</h4>
+</div>
+
+
+{% endblock %}

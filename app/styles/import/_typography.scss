@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin:300,400|Poppins:400,500');
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $poppins;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 3rem;
+	line-height: 3.2rem;
+	color: $white;
+	text-align: center;
+	text-transform: none;
+}
+
+h1.link {
+	color: $bright_teal;
+}
+
+h2 { 
+	font-weight: 500;
+	font-size: 2.4rem;
+	line-height: 2.6rem;
+	color: $white;
+}
+
+h2.title {
+	color: $green;
+} 
+
+h2.callout {
+	text-align: center;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 2rem;
+	line-height: 2.2rem;
+	color: $white;
+}
+
+h3.alt {
+	color: $light_gray;
+}
+
+h3.link {
+	color: $bright_teal;
+}
+
+h4 {
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+	color: $dark_gray;
+}
+
+h4.link {
+	color: $bright_teal;
+	text-align: center;
+	text-transform: none;
+}
+
+h4.link.heading {
+	color: $bright_teal;
+	text-align: center;
+}
+
+h4.heading {
+	font-weight: 400;
+	color: $green;
+}
+
+.body-subhead, .body, .body-lrg, .list {
+	font-family: $palanquin;
+	font-size: 1rem;
+	line-height: 1.6rem;
+}
+
+.body-subhead {
+	font-weight: 300;
+	color: $green;
+}
+
+.body {
+	font-weight: 400;
+}
+
+/* */
+.body-light {
+	font-weight: 300; 
+}
+/* */
+
+.body-lrg {
+	font-size: 1.6rem;
+	line-height: 2rem;
+}
+
+a, .link {
+	color: $bright_teal;
+	text-decoration: none;
+}

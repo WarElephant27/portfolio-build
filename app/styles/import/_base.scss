@@ -1,0 +1,53 @@
+.wrapper {
+	background: $dark_gray;
+	display: block;
+	overflow-y: auto;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+}
+
+.content-module {
+	width: 80vw;
+	max-width: 1800px;
+	margin: 1rem auto;
+}
+
+.content-module-wide {
+	width: 90vw;
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.button {
+	border: 1px solid $bright_teal;
+	color: $bright_teal;
+	margin: 0 auto;
+	padding: 0.8rem;
+	font-size: 0.9rem;
+	font-family: $palanquin;
+	font-weight: 400;
+	max-width: 10rem;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.button:hover {
+	background: $bright_teal;
+	color: $dark_gray;
+}
+
+.list {
+	display: block;
+	color: $light_gray;
+
+	li {
+		margin: 1rem 0;
+	}
+}

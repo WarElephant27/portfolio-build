@@ -1,0 +1,75 @@
+/*//////////////////////*/
+/* INDEX */
+.index-headline {
+	padding: 20vh;
+}
+
+.about {
+	
+	background: $teal_gradient;
+
+	.content-module {
+		height: 90vh;
+		padding: 30vh 20vw 20vh 20vw;
+	}
+
+	.body {
+		margin-top: 2rem;
+		color: $white;
+		text-align: center;
+	}
+}
+
+.resume {
+	background: $darker_gray;
+
+	.content-module:nth-child(1) {
+		padding: 10rem 0 2rem 0;
+		position: relative;
+
+		h3 {
+			display: inline-block;
+		}
+	}
+
+	.button {
+		max-width: 12rem;
+		display: inline-block;
+		position: absolute;
+		right: 0;
+	}
+
+	.content-module:nth-child(2) {
+		padding: 0 0 10rem 0;
+
+		div:nth-child(1) {
+			width: 60%;
+			display: inline-block;
+			margin-right: 1rem;
+		}
+
+		div:nth-child(2) {
+			width: 30%;
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+
+	.list {
+		span {
+			color: $white;
+		}
+	}
+}
+
+.contact {
+	text-align: center;
+
+	h4 {
+		text-align: center;
+		text-transform: none;
+		margin-top: 1rem;
+	}
+}
+
+

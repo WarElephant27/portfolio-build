@@ -1,0 +1,76 @@
+.nav-header {
+	margin-top: 4rem;
+	position: relative;
+}
+
+.logo {
+	display: inline-block;
+	
+	img {
+		height: 2.6rem;
+	}
+}
+
+.title {
+	display: inline-block;
+	font-family: $poppins;
+	font-weight: 400;
+	vertical-align: top;
+	margin: 0.1rem 0 0 0.4rem;
+
+	span {
+		display: block;
+		color: $white;
+
+		&:nth-child(1) {
+			text-transform: uppercase;
+			font-size: 1.4rem;
+			line-height: 1.6rem;
+		}
+
+		&:nth-child(2) {
+			font-size: 1rem;
+		}
+	}
+
+}
+
+.menu {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	border: 1px solid $bright_teal;
+	color: $bright_teal;
+	padding: 0.8rem;
+	font-size: 0.9rem;
+	font-family: $palanquin;
+	font-weight: 400;
+	max-width: 6rem;
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.menu:hover {
+	background: $bright_teal;
+	color: $dark_gray;
+}
+
+@media all and (max-width: 530px) {
+	.nav-header {
+
+		margin-top: 1rem;
+
+		.menu {
+			display: block;
+			top: 0;
+		}
+
+		.title {
+			display: block;
+			margin-top: 2rem;
+			text-align: center;
+		}
+	}
+}
