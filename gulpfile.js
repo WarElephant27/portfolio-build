@@ -14,7 +14,7 @@ var gulp = require('gulp'),
 // Scripts
 gulp.task('scripts', function() {
   return gulp.src('./app/scripts/**/*.js')
-    .pipe(jshint('.jshintrc'))
+    // .pipe(jshint('.jshintrc'))
     .pipe(jshint.reporter('default'))
     .pipe(concat('main.js'))
     .pipe(gulp.dest('dist/scripts'))

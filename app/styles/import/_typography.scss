@@ -37,8 +37,9 @@ h2.callout {
 h3 {
 	font-weight: 500;
 	font-size: 2rem;
-	line-height: 2.2rem;
+	line-height: 2.4rem;
 	color: $white;
+	margin: 0 0 1rem 0;
 }
 
 h3.alt {
@@ -65,6 +66,7 @@ h4.link {
 h4.link.heading {
 	color: $bright_teal;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 h4.heading {
@@ -72,10 +74,11 @@ h4.heading {
 	color: $green;
 }
 
-.body-subhead, .body, .body-lrg, .list {
+.body-subhead, .body, .body-lrg, .body-light, .list {
 	font-family: $palanquin;
 	font-size: 1rem;
 	line-height: 1.6rem;
+	color: $darker_gray;
 }
 
 .body-subhead {
@@ -101,4 +104,8 @@ h4.heading {
 a, .link {
 	color: $bright_teal;
 	text-decoration: none;
+}
+
+p {
+	margin: 0 0 1rem 0;
 }

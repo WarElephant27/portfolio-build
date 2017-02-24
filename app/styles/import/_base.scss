@@ -2,10 +2,19 @@
 	background: $dark_gray;
 	display: block;
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 .content-wrapper {
 	margin: 0 auto;
+	overflow: hidden;
+
+	.image {
+		max-height: 94vh;
+		img {
+			width: 100%
+		}
+	}
 }
 
 .content-module {
@@ -32,6 +41,7 @@
 
 .button {
 	border: 1px solid $bright_teal;
+	background: $darker_gray;
 	color: $bright_teal;
 	margin: 0 auto;
 	padding: 0.8rem;
@@ -47,6 +57,20 @@
 .button:hover {
 	background: $bright_teal;
 	color: $dark_gray;
+}
+
+a {
+	color: $bright_teal;
+	font-size: 1rem;
+	font-family: $palanquin;
+	font-weight: 400;
+	cursor: pointer;
+	text-decoration: none;
+	transition: text-decoration .5s ease;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .list {

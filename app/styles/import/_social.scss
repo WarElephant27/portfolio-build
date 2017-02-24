@@ -2,23 +2,41 @@
 	display: flex;
 	justify-content: center;
 	font-family: $palanquin;
+	
+	a {
+		width: auto;
+	}
 
 	.icon {
 		background: $darker_gray;
 		box-shadow: 0px 2px 6px $darker_gray;
-		padding: 2rem;
-		margin-right: 1rem;
+		min-width: 60px;
+		padding: 1rem;
+		margin-right: 0.5rem;
+
+		img {
+			height: 60px;
+		}
+
+		&:hover {
+			background: $teal;
+
+			img {
+				fill: $white;
+			}
+		}
 
 		&:nth-child(last) {
 			margin-right: 0;
 		}
-	}
+	}	
+
 }
 
 @media all and (max-width: 800px) {
 	.social {
 		a {
-			width: 25%; 
+			width: 33%; 
 		}
 	}
 }

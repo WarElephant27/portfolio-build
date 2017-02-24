@@ -1,8 +1,9 @@
 $(document).ready( function() {
 
-$('.menu').click(
+$('.menu, .close').click(
   function() {
-    $('.menu-expanded').toggleClass('hidden');
+    $('.menu-expanded').toggleClass('closed').toggleClass('open'),
+    $('.wrapper').toggleClass('overflow-hidden');
   });
 
 }); //end document.ready

@@ -70,24 +70,105 @@
 .content-module {
 	&.final {
 		background: $teal_gradient;
-		padding: 6rem;
+		padding: 4rem;
 		color: $white;
+		position: relative;
+		z-index: 100000;
 
-		h1, h2, h3, h4, h5, h6 {
+		h1, h2, h3, h4, h5, h6, .body, .body-light, .body-lrg {
 			color: $white;
+		}
+	}
+
+	&.related-projects {
+		margin: 4rem auto;
+		padding: 3rem 0 0 0;
+		border-top: 1px solid $bright_teal;
+
+		.projects {
+			margin: 2rem 0;
+			justify-content: center;
+		}
+	}
+}
+
+.content-module-wide {
+	&.hero {
+		margin-top: 2rem;
+
+		.image {
+			height: 80vh;
+			background-repeat: no-repeat;
+
+			.project-title {
+				padding: 4rem
+
+			}
+		}
+	}
+}
+
+/* Content Tiles */
+.content-tile {
+	background: $white;
+	box-shadow: 0px 2px 6px $darker_gray;
+	position: relative;
+	padding: 2.4rem;
+	margin-bottom: 4rem;
+	display: flex;
+
+	&.w-image {
+		padding: 0;
+
+		.image {
+			width: 50%;
+			overflow: hidden;
+			max-height: 50vh;
+
+			img {
+				height: 100%;
+			}
+		}
+
+		.main {
+			width: 50%;
+			background: $darker_gray;
+			margin: 0;
+			padding: 2.4rem 2rem;
+
+			.body, .body-light {
+				color: $light_gray;
+			}
+		}
+	}
+
+	.main {
+		width: 66%;
+		margin: 0 2rem 0 0;
+	}
+
+	.aside {
+		width: 33%;
+		padding: 0 0 0 2rem;
+		border-left: 1px solid $light_gray;
+		display: flex;
+		
+		.button {
+			max-width: 100%;
 		}
 	}
 }
 
 /*//////////////////////////////////////*/
 /* Project images */
-.project-tile {
+.project-tile, .content-module-wide.hero {
 	.image {
 		background-size: cover;
 	}
 }
 
 .bofa-budgeting {
+
 	.image {
 		background-image: url('../assets/projects/bofa-budgeting/project-sample-2.jpg');
 	}

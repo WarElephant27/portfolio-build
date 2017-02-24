@@ -2,25 +2,25 @@
 
 	<a href="http://linkedin.com/in/swillenburg/" target="_blank">
 	<div class="icon">
-		LinkedIn
+		<img src="assets/icons/linkedin.svg" alt="LinkedIn">
 	</div>
 	</a>
 
 	<a href="https://dribbble.com/ProbablyAnElephant" target="_blank">
 	<div class="icon">
-		Dribbble
+		<img src="assets/icons/dribbble.svg" alt="Dribbble">
 	</div>
 	</a>
 
-	<a href="http://instagram.com/probablyanelephant" target="_blank">
+	<!-- <a href="http://instagram.com/probablyanelephant" target="_blank">
 	<div class="icon">
 		Instagram
 	</div>
-	</a>
+	</a> -->
 
 	<a href="https://angel.co/swillenburg" target="_blank">
 	<div class="icon">
-		Angellist
+		<img src="assets/icons/angellist.svg" alt="AngelList">
 	</div>
 	</a>
 
