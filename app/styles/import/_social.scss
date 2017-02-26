@@ -13,6 +13,7 @@
 		min-width: 60px;
 		padding: 1rem;
 		margin-right: 0.5rem;
+		text-align: center;
 
 		img {
 			height: 60px;
@@ -35,8 +36,18 @@
 
 @media all and (max-width: 800px) {
 	.social {
-		a {
-			width: 33%; 
+
+		.icon {
+		background: $darker_gray;
+		box-shadow: 0px 2px 6px $darker_gray;
+		min-width: 60px;
+		padding: 1rem;
+		margin-right: 0.5rem;
+		text-align: center;
+
+			img {
+				height: 60px;
+			}
 		}
 	}
 }

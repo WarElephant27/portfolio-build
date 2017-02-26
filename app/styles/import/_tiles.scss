@@ -152,7 +152,7 @@
 		padding: 0 0 0 2rem;
 		border-left: 1px solid $light_gray;
 		display: flex;
-		
+
 		.button {
 			max-width: 100%;
 		}
@@ -305,7 +305,16 @@
 
 }
 
+
 @media all and (max-width: 530px) {
+	.overlap-top {
+		margin-top: -2rem; 
+	}
+
+	.overlap-bottom {
+		margin-bottom: -2rem; 
+	}
+
 	.project-tile {
 
 		.text-wrap {
@@ -378,6 +387,63 @@
 
 			h4, .body-subhead {
 				text-align: center;
+			}
+		}
+	}
+
+	.content-module-wide {
+		&.hero {
+			.image {
+
+				.project-title {
+				padding: 2rem 1rem;
+
+				}
+			}
+		}
+	}
+
+	.content-tile {
+		display: block;
+
+		&.w-image {
+
+			.image {
+				width: 100%;
+				overflow: hidden;
+				max-height: 50vh;
+
+				img {
+					height: 100%;
+				}
+			}
+
+			.main {
+				width: 100%;
+				background: $darker_gray;
+				margin: 0;
+				padding: 2.4rem 2rem;
+
+				.body, .body-light {
+					color: $light_gray;
+				}
+			}
+		}
+
+		.main {
+			width: 100%;
+			margin: 0 2rem 0 0;
+		}
+
+		.aside {
+			width: 100%;
+			padding: 2rem 0 0 0;
+			border-left: none;
+			border-top: 1px solid $light_gray;
+			display: flex;
+
+			.button {
+				max-width: 100%;
 			}
 		}
 	}

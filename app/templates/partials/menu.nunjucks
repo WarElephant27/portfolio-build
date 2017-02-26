@@ -1,4 +1,4 @@
-<div class="content-module-wide menu-expanded closed">
+<div class="content-module menu-expanded closed">
 	<div class="close">
 	 <a>close menu</a>
 	</div>
@@ -41,8 +41,8 @@
 		</div>
 
 		<div class="links">
-			<a href=""><h3 class="link">Resume</h3></a>
-			<a href=""><h3 class="link">About</h3></a>
+			<a href="index.html#resume"><h3 class="link">Resume</h3></a>
+			<a href="index.html#about"><h3 class="link">About</h3></a>
 			<!-- <a href=""><h3 class="link">Blog</h3></a> -->
 		</div>
 	</div>

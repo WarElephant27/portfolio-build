@@ -6,8 +6,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>Document</title>
+  <title>UX Design Portfolio  |  Sierra Willenburg</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
 <body>
 <div class="wrapper">

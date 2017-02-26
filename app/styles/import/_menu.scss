@@ -54,10 +54,17 @@
 	.half {
 		display: inline-block;
 		width: 35%;
-		
+
+		h3, h3.link {
+				margin-top: 2rem;
+		}
+
+		h3.link {
+			margin-bottom: 2rem;
+		}
+
 		.contact {
 			border-top: 1px solid $bright_teal;
-			padding-top: 2rem;
 
 			.body {
 				color: $white;
@@ -95,12 +102,6 @@
 				}
 			}
 		}
-
-		.links {
-			h3.link {
-				margin: 2rem 0;
-			}
-		}
 	
 		&.projects {
 			border-left: 1px solid $bright_teal;
@@ -124,8 +125,7 @@
 			}
 
 			a {
-				width: 30%;
-				display: inline-block;
+				width: 33%;
 
 				&:hover {
 					text-decoration: none;
