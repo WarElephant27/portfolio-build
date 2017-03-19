@@ -98,7 +98,7 @@ h4.heading {
   font-weight: 400;
   color: #56A08B; }
 
-.body-subhead, .body, .body-lrg, .body-light, .list {
+.body-subhead, .body, .body-mid, .body-lrg, .body-light, .list {
   font-family: "Palanquin", sans-serif;
   font-size: 1rem;
   line-height: 1.6rem;
@@ -116,6 +116,10 @@ h4.heading {
   font-weight: 300; }
 
 /* */
+.body-mid {
+  font-size: 1.4rem;
+  line-height: 2rem; }
+
 .body-lrg {
   font-size: 1.6rem;
   line-height: 2rem; }
@@ -200,8 +204,14 @@ a:hover {
   .content-module-wide {
     width: 95vw; }
   .content-wrapper .image img {
+    max-height: 100%;
     width: auto;
-    height: 100%; } }
+    height: auto; } }
+
+@media all and (max-width: 400px) {
+  .content-module {
+    width: 95vw;
+    margin: 0.6rem auto; } }
 
 .nav-header {
   margin-top: 4rem;
@@ -256,6 +266,10 @@ a:hover {
       display: block;
       margin-top: 2rem;
       text-align: center; } }
+
+@media all and (max-width: 400px) {
+  .nav-header {
+    margin: 1rem; } }
 
 .overflow-hidden {
   height: 100vh;
@@ -408,7 +422,8 @@ footer {
 .social {
   display: flex;
   justify-content: center;
-  font-family: "Palanquin", sans-serif; }
+  font-family: "Palanquin", sans-serif;
+  margin-top: 2rem; }
   .social a {
     width: auto; }
   .social .icon {
@@ -440,7 +455,7 @@ footer {
 
 .project-tile {
   background: #222222;
-  box-shadow: 0px 2px 6px #222222;
+  box-shadow: 0px 2px 6px rgba(34, 34, 34, 0.5);
   position: relative; }
   .project-tile .text-wrap {
     text-align: center;
@@ -453,7 +468,7 @@ footer {
       margin-top: 2rem; }
   .project-tile.hero .text-wrap {
     height: 80vh;
-    width: 66%; }
+    width: 33%; }
   .project-tile.half {
     width: 50%;
     display: inline-block; }
@@ -487,29 +502,36 @@ footer {
   z-index: 100000; }
   .content-module.final h1, .content-module.final h2, .content-module.final h3, .content-module.final h4, .content-module.final h5, .content-module.final h6, .content-module.final .body, .content-module.final .body-light, .content-module.final .body-lrg {
     color: #ffffff; }
+  .content-module.final .main {
+    width: 66%;
+    margin: 0 2.6rem 0 0; }
 
 .content-module.related-projects {
   margin: 4rem auto;
   padding: 3rem 0 0 0;
   border-top: 1px solid #31E0DB; }
   .content-module.related-projects .projects {
-    margin: 2rem 0;
+    margin: 2.6rem 0;
     justify-content: center; }
 
 .content-module-wide.hero {
   margin-top: 2rem; }
   .content-module-wide.hero .image {
     height: 80vh;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
     .content-module-wide.hero .image .project-title {
-      padding: 4rem; }
+      background: #ffffff;
+      position: absolute;
+      margin: 2rem 0 0 0;
+      padding: 2rem 2rem 2rem 4rem; }
 
 /* Content Tiles */
 .content-tile {
   background: #ffffff;
   box-shadow: 0px 2px 6px #222222;
   position: relative;
-  padding: 2.4rem;
+  padding: 3.4rem;
   margin-bottom: 4rem;
   display: flex; }
   .content-tile.w-image {
@@ -524,24 +546,33 @@ footer {
       width: 50%;
       background: #222222;
       margin: 0;
-      padding: 2.4rem 2rem; }
+      padding: 2.8rem; }
       .content-tile.w-image .main .body, .content-tile.w-image .main .body-light {
         color: #8a8a8a; }
+      .content-tile.w-image .main .button {
+        max-width: 100%;
+        margin-top: 2rem; }
   .content-tile .main {
     width: 66%;
-    margin: 0 2rem 0 0; }
+    margin: 0 2.6rem 0 0; }
   .content-tile .aside {
     width: 33%;
     padding: 0 0 0 2rem;
     border-left: 1px solid #8a8a8a;
     display: flex; }
+    .content-tile .aside img {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto; }
     .content-tile .aside .button {
       max-width: 100%; }
 
 /*//////////////////////////////////////*/
 /* Project images */
 .project-tile .image, .content-module-wide.hero .image {
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .bofa-budgeting .image {
   background-image: url("../assets/projects/bofa-budgeting/project-sample-2.jpg"); }
@@ -552,12 +583,19 @@ footer {
 .veritas-visuals .text-wrap {
   width: 50%; }
 
+.project-tile.veritas-visuals .image {
+  background-size: 150% auto;
+  background-position: auto; }
+
+.project-tile.me-brochure .image {
+  background-size: 130% auto; }
+
 .veritas-journey, .dd-badging, .bofa-heuristics {
   position: relative; }
   .veritas-journey .image, .dd-badging .image, .bofa-heuristics .image {
     background-repeat: no-repeat;
     background-size: 60px 60px;
-    background-position: 20% 50%;
+    background-position: 15% center;
     height: 100%; }
   .veritas-journey .text-wrap, .dd-badging .text-wrap, .bofa-heuristics .text-wrap {
     width: 66%;
@@ -579,7 +617,7 @@ footer {
   background-image: url("../assets/icons/website.png"); }
 
 .me-brochure .image {
-  background-image: url("../assets/projects/me-brochure/fpo-couple-stock.jpg"); }
+  background-image: url("../assets/projects/me-brochure/hero.jpg"); }
 
 .me-brochure .text-wrap {
   width: 33%;
@@ -590,7 +628,10 @@ footer {
   background: rgba(34, 34, 34, 0.9); }
 
 .mbhp .image {
-  background-image: url("../assets/projects/mbhp/shes-a-brick-house.jpg"); }
+  background-image: url("../assets/projects/mbhp/hero.jpg"); }
+
+.mbhp .content-tile.w-image .main {
+  background: #ffffff; }
 
 .bfweb .image {
   background-image: url("../assets/projects/bfweb/bfweb.jpg"); }
@@ -598,14 +639,27 @@ footer {
 .ml-content-hub .image {
   background-image: url("../assets/projects/mbhp/shes-a-brick-house.jpg"); }
 
+/* Related projects */
+.related-projects .project-tile .text-wrap {
+  width: 100%;
+  background: rgba(34, 34, 34, 0.9);
+  position: absolute;
+  top: 0; }
+
+.related-projects .project-tile.veritas-visuals .text-wrap {
+  width: 100%; }
+
+/* */
 /* @MEDIA */
 @media all and (max-width: 800px) {
   .project-tile.hero .text-wrap {
     width: 50%; }
   .project-tile.third {
     width: 50%; }
-  .veritas-visuals .text-wrap {
-    width: 66%; }
+  .project-tile.veritas-visuals .image {
+    background-size: cover; }
+  .project-tile.veritas-visuals .text-wrap {
+    width: 50%; }
   .me-brochure .text-wrap {
     width: 50%; }
   .veritas-journey, .dd-badging, .bofa-heuristics {
@@ -613,24 +667,32 @@ footer {
     .veritas-journey .image, .dd-badging .image, .bofa-heuristics .image {
       background-position: 10% 50%; }
     .veritas-journey .text-wrap, .dd-badging .text-wrap, .bofa-heuristics .text-wrap {
-      padding: 0 1rem 0 0; } }
+      padding: 0 1rem 0 0; }
+  .veritas-journey .image {
+    background-position: 2.4rem center; }
+  .veritas-journey .text-wrap {
+    width: 60%; } }
 
-@media all and (max-width: 530px) {
+@media all and (max-width: 600px) {
   .overlap-top {
     margin-top: -2rem; }
   .overlap-bottom {
     margin-bottom: -2rem; }
   .project-tile .text-wrap .button {
     margin-top: 1rem; }
+  .project-tile .text-wrap .text {
+    margin: 0 auto; }
   .project-tile.hero {
     overflow-y: auto; }
     .project-tile.hero .image {
-      padding-top: 30vh; }
+      padding-top: 30vh;
+      background-position: center center; }
     .project-tile.hero .text-wrap {
       width: 100%;
       height: 30vh; }
   .project-tile.half .image {
-    padding-top: 20vh; }
+    padding-top: 20vh;
+    background-position: center 40%; }
   .project-tile.half .text-wrap {
     width: 100%;
     min-height: 10vh;
@@ -647,9 +709,8 @@ footer {
     height: auto; }
   .content-module.final {
     padding: 2.4rem 2rem; }
-  .veritas-journey .image, .dd-badging .image, .bofa-heuristics .image {
-    padding-top: 20vh;
-    background-position: 50% 10%; }
+    .content-module.final .main {
+      width: 100%; }
   .veritas-journey .text-wrap, .dd-badging .text-wrap, .bofa-heuristics .text-wrap {
     position: relative;
     width: 100%;
@@ -686,28 +747,49 @@ footer {
       .content-tile .aside .button {
         max-width: 100%; } }
 
+@media all and (max-width: 400px) {
+  .project-tile.half:nth-child(1) {
+    margin-right: 0.25rem; }
+  .project-tile.half:nth-child(2) {
+    margin-left: 0.25rem; }
+  .project-tile.third:nth-child(1) {
+    margin-right: 0.25rem; }
+  .project-tile.third:nth-child(2) {
+    margin-left: 0.25rem; }
+  .content-tile {
+    padding: 2rem 1.6rem; } }
+
 /*//////////////////////*/
 /* INDEX */
 .index-headline {
   padding: 20vh; }
 
+@media all and (max-width: 800px) {
+  .index-headline {
+    padding: 20vh 10vh; } }
+
 @media all and (max-width: 530px) {
   .index-headline {
     padding: 14vh 0; } }
+
+@media all and (max-width: 400px) {
+  .index-headline {
+    padding: 10vh 0; } }
 
 .about {
   background: linear-gradient(#31E0DB, #24A1AA, #24A1AA); }
   .about .content-module {
     height: 90vh;
-    padding: 30vh 20vw 20vh 20vw; }
-  .about .body {
+    padding: 30vh 16vw 20vh 16vw; }
+  .about .body-mid {
     margin-top: 2rem;
     color: #ffffff;
     text-align: center; }
 
 @media all and (max-width: 530px) {
   .about .content-module {
-    padding: 30vh 0 0 0; } }
+    padding: 30vh 0 10vh 0;
+    height: auto; } }
 
 .resume {
   background: #222222; }
@@ -752,7 +834,7 @@ footer {
     display: inline-block;
     position: absolute;
     right: 0;
-    top: 16vh; } }
+    top: 12vh; } }
 
 .contact {
   text-align: center; }

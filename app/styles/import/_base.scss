@@ -94,9 +94,17 @@ a:hover {
 	.content-wrapper {
 	.image {
 		img {
+			max-height: 100%;
 			width: auto;
-			height: 100%;
+			height: auto;
 		}
 	}
 }
+}
+
+@media all and (max-width: 400px) {
+	.content-module {
+		width: 95vw;;
+		margin: 0.6rem auto;
+	}
 }

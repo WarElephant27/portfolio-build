@@ -4,9 +4,21 @@
 	padding: 20vh;
 }
 
+@media all and (max-width:800px) {
+	.index-headline {
+		padding: 20vh 10vh;
+	}
+}
+
 @media all and (max-width: 530px) {
 	.index-headline {
 		padding: 14vh 0;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.index-headline {
+		padding: 10vh 0;
 	}
 }
 
@@ -15,10 +27,10 @@
 
 	.content-module {
 		height: 90vh;
-		padding: 30vh 20vw 20vh 20vw;
+		padding: 30vh 16vw 20vh 16vw;
 	}
 
-	.body {
+	.body-mid {
 		margin-top: 2rem;
 		color: $white;
 		text-align: center;
@@ -28,7 +40,8 @@
 @media all and (max-width: 530px) {
 	.about {
 		.content-module {
-			padding: 30vh 0 0 0;
+			padding: 30vh 0 10vh 0;
+			height: auto;
 		}
 	}
 }
@@ -75,6 +88,7 @@
 	}
 }
 
+
 @media all and (max-width: 530px) {
 	.resume {
 		.content-module:nth-child(1) {
@@ -102,7 +116,7 @@
 			display: inline-block;
 			position: absolute;
 			right: 0;
-			top: 16vh;
+			top: 12vh;
 		}
 
 	}
@@ -117,4 +131,6 @@
 		margin-top: 1rem;
 	}
 }
+
+
 

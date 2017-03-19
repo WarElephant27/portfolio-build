@@ -125,13 +125,13 @@
 	</div>
 	</div>
 
-	<div class="project-tile third mbhp">	
+	<div class="project-tile third veritas-journey">	
 		<div class="image">
-			<a href="mbhp.html">
+			<a href="veritas-user-flow.html">
 			<div class="text-wrap">
 			<div class="text">
-			<h4 class="link">Visual Identity System</h4>
-			<div class="body-subhead">for MBHP</div>
+			<h4 class="link">User Journey</h4>
+			<div class="body-subhead">for Veritas Genetics</div>
 			</div>
 			</div>
 			</a>

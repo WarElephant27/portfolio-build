@@ -31,32 +31,31 @@
 	</aside>
 </div>
 
-<div class="content-wrapper">
+
+<div class="content-module content-tile w-image">
 	<div class="image">
 		<img src="assets/projects/bofa-budgeting/savings.jpg">
 	</div>
-</div>
-<div class="content-module content-tile overlap-top">
+
 	<div class="main">
 	<h3 class="alt">User Journey Mapping</h3>
 	<p class="body">
 	To create the budgeting tool, we needed to understand how people were using their accounts. Based on the data we had about the bank’s users, we created three high-level user journeys for representative user groups. These let us see when and why users were logging into their online banking accounts, and helped the team brainstorm new functionality that would be the most useful.
 	</p>
+	<a href="">
+	<div class="button">
+	see the full user journeys
 	</div>
-	<div class="aside cta">
-		<a href="">
-		<div class="button">
-		see the full user journeys
-		</div>
-		</a>
+	</a>
 	</div>
 </div>
 
-<div class="content-module content-tile w-image">
-	<div class="image">
+<div class="content-wrapper">
+<div class="image">
 	<img src="assets/projects/bofa-budgeting/ui-design.jpg">
 	</div>
-
+</div>
+<div class="content-module content-tile overlap-top">
 	<div class="main">
 	<h3 class="alt">UI Design</h3>
 	<p class="body">
@@ -97,13 +96,16 @@
 </div>
 
 <div class="content-module final overlap-top overlap-bottom">
+	<div class="main">
 	<h3>The Finished Product</h3>
-	<p class="body">If you have a bank of America account, you can see the tools in action today. Log in and check them out under your accounts in the app or on the desktop site.</p>
+	<p class="body">
+	If you have a bank of America account, you can see the tools in action today. Log in and check them out under your accounts in the app or on the desktop site.</p>
+	</div>
 </div>
 
 <div class="content-wrapper">
 	<div class="image">
-		<img src="assets/projects/bofa-budgeting/project-sample-4.jpg">
+		<img src="assets/projects/bofa-budgeting/project-sample-5.jpg">
 	</div>
 </div>
 
@@ -112,26 +114,26 @@
 
 	<div class="projects flex">
 
-	<div class="project-tile third dd-badging">
+	<div class="project-tile third veritas-visuals">
 	<div class="image">
-		<a href="dd-badging.html">
+		<a href="veritas-visuals.html">
 		<div class="text-wrap">
 		<div class="text">
-		<h4 class="link">App Badging Syntax</h4>
-		<div class="body-subhead">for Dunkin Donuts</div>
+		<h4 class="link">Visual Concepts</h4>
+		<div class="body-subhead">for Veritas Genetics</div>
 		</div>
 		</div>
 		</a>
 	</div>
 	</div>
 
-	<div class="project-tile third mbhp">	
+	<div class="project-tile third me-brochure">
 		<div class="image">
-			<a href="mbhp.html">
+			<a href="me-digital-brochure.html">
 			<div class="text-wrap">
 			<div class="text">
-			<h4 class="link">Visual Identity System</h4>
-			<div class="body-subhead">for MBHP</div>
+			<h4 class="link">Digital Brochure</h4>
+			<div class="body-subhead">for Merrill Edge</div>
 			</div>
 			</div>
 			</a>

@@ -1,6 +1,6 @@
 .project-tile {
 	background: $darker_gray;
-	box-shadow: 0px 2px 6px $darker_gray;
+	box-shadow: 0px 2px 6px $darker_gray_50;
 	position: relative;
 
 	.text-wrap {
@@ -20,7 +20,7 @@
 
 		.text-wrap {
 			height: 80vh;
-			width: 66%;
+			width: 33%;
 		}
 	}
 
@@ -73,10 +73,15 @@
 		padding: 4rem;
 		color: $white;
 		position: relative;
-		z-index: 100000;
+		z-index: 100000;   
 
 		h1, h2, h3, h4, h5, h6, .body, .body-light, .body-lrg {
 			color: $white;
+		}
+
+		.main {
+			width: 66%;
+			margin: 0 2.6rem 0 0;
 		}
 	}
 
@@ -86,7 +91,7 @@
 		border-top: 1px solid $bright_teal;
 
 		.projects {
-			margin: 2rem 0;
+			margin: 2.6rem 0;
 			justify-content: center;
 		}
 	}
@@ -99,10 +104,13 @@
 		.image {
 			height: 80vh;
 			background-repeat: no-repeat;
+			background-size: cover;
 
 			.project-title {
-				padding: 4rem
-
+				background: $white;
+				position: absolute;
+				margin: 2rem 0 0 0;
+				padding: 2rem 2rem 2rem 4rem;
 			}
 		}
 	}
@@ -113,7 +121,7 @@
 	background: $white;
 	box-shadow: 0px 2px 6px $darker_gray;
 	position: relative;
-	padding: 2.4rem;
+	padding: 3.4rem;
 	margin-bottom: 4rem;
 	display: flex;
 
@@ -134,17 +142,22 @@
 			width: 50%;
 			background: $darker_gray;
 			margin: 0;
-			padding: 2.4rem 2rem;
+			padding: 2.8rem;
 
 			.body, .body-light {
 				color: $light_gray;
+			}
+
+			.button {
+				max-width: 100%;
+				margin-top: 2rem;
 			}
 		}
 	}
 
 	.main {
 		width: 66%;
-		margin: 0 2rem 0 0;
+		margin: 0 2.6rem 0 0;
 	}
 
 	.aside {
@@ -152,6 +165,13 @@
 		padding: 0 0 0 2rem;
 		border-left: 1px solid $light_gray;
 		display: flex;
+
+		img {
+			max-width: 100%;
+			max-height: 100%;
+			width: auto;
+			height: auto;
+		}
 
 		.button {
 			max-width: 100%;
@@ -164,6 +184,7 @@
 .project-tile, .content-module-wide.hero {
 	.image {
 		background-size: cover;
+		background-repeat: no-repeat;
 	}
 }
 
@@ -184,13 +205,28 @@
 	}
 }
 
+.project-tile {
+	&.veritas-visuals {
+		.image {
+		background-size: 150% auto;
+		background-position: auto;
+		}
+	}
+
+	&.me-brochure {
+		.image {
+			background-size: 130% auto;
+		}
+	}
+}
+
 .veritas-journey, .dd-badging, .bofa-heuristics {
 	position: relative;
 
 	.image {
 		background-repeat: no-repeat;
 		background-size: 60px 60px;
-		background-position: 20% 50%;
+		background-position: 15% center;
 		height: 100%;
 	}
 
@@ -226,11 +262,9 @@
 	}
 }
 
-
-
 .me-brochure {
 	.image {
-		background-image: url('../assets/projects/me-brochure/fpo-couple-stock.jpg');
+		background-image: url('../assets/projects/me-brochure/hero.jpg');
 	}
 
 	.text-wrap {
@@ -248,7 +282,11 @@
 
 .mbhp {
 	.image {
-		background-image: url('../assets/projects/mbhp/shes-a-brick-house.jpg');
+		background-image: url('../assets/projects/mbhp/hero.jpg');
+	}
+
+	.content-tile.w-image .main {
+		background: #ffffff;
 	}
 }
 
@@ -264,8 +302,29 @@
 	}
 }
 
+
+/* Related projects */
+.related-projects .project-tile {
+	.text-wrap {
+		width: 100%;
+		background: $darker_gray_90;
+		position: absolute;
+		top: 0;
+	}
+
+	&.veritas-visuals {
+		.text-wrap {
+			width: 100%;
+		}
+	}
+}
+/* */
+
+
+
 /* @MEDIA */
 @media all and (max-width: 800px) {
+
 	.project-tile {
 		&.hero {
 
@@ -279,9 +338,13 @@
 		}
 	}
 
-	.veritas-visuals {
+	.project-tile.veritas-visuals {
+		.image {
+			background-size: cover;
+		}
+
 		.text-wrap {
-			width: 66%;
+			width: 50%;
 		}
 	}
 
@@ -292,21 +355,31 @@
 	}
 
 	.veritas-journey, .dd-badging, .bofa-heuristics {
-	position: relative;
+		position: relative;
 
-	.image {
-		background-position: 10% 50%;
+		.image {
+			background-position: 10% 50%;
+		}
+
+		.text-wrap {
+			padding: 0 1rem 0 0;
+		}
 	}
 
-	.text-wrap {
-		padding: 0 1rem 0 0;
+	.veritas-journey {
+		.image {
+			background-position: 2.4rem center;
+		}
+
+		.text-wrap {
+			width: 60%;
+		}
 	}
-}
 
 }
 
 
-@media all and (max-width: 530px) {
+@media all and (max-width: 600px) {
 	.overlap-top {
 		margin-top: -2rem; 
 	}
@@ -321,6 +394,10 @@
 			.button {
 				margin-top: 1rem;
 			}
+
+			.text {
+				margin: 0 auto;
+			}
 		}
 
 		&.hero {
@@ -328,6 +405,7 @@
 
 			.image {
 				padding-top: 30vh;
+				background-position: center center;
 			}
 
 			.text-wrap {
@@ -339,6 +417,7 @@
 		&.half {
 			.image {
 				padding-top: 20vh;
+				background-position: center 40%;
 			}
 
 			.text-wrap {
@@ -370,13 +449,15 @@
 	.content-module {
 		&.final {
 			padding: 2.4rem 2rem;
+
+			.main {
+				width: 100%;
+			}
 		}
 	}
 
 	.veritas-journey, .dd-badging, .bofa-heuristics {
 		.image {
-			padding-top: 20vh;
-			background-position: 50% 10%;
 		}
 
 		.text-wrap {
@@ -447,6 +528,34 @@
 			}
 		}
 	}
+}
 
 
+@media all and (max-width: 400px) {
+	.project-tile {
+
+		&.half {
+			&:nth-child(1) {
+				margin-right: 0.25rem;
+			}
+
+			&:nth-child(2) {
+				margin-left: 0.25rem;
+			}
+		}
+
+		&.third {
+			&:nth-child(1) {
+				margin-right: 0.25rem;
+			}
+
+			&:nth-child(2) {
+				margin-left: 0.25rem;
+			}
+		}
+	}
+
+	.content-tile {
+		padding: 2rem 1.6rem;
+	}
 }

@@ -2,12 +2,12 @@
 
 {% block content %}
 
-<div class="content-module-wide hero bofa-budgeting">
+<div class="content-module-wide hero mbhp">
 	<div class="image">
 		
 		<div class="project-title">
-		<h2 class="title">Budgeting Tools</h2>
-		<div class="body-subhead">for Bank of America</div>
+		<h2 class="title">Visual Identity System</h2>
+		<div class="body-subhead">for Metropolitan Boston Housing Partnership (MBHP)</div>
 		</div>
 
 	</div>
@@ -16,122 +16,155 @@
 <div class="content-module content-tile overlap-top">
 	<div class="main">
 		<p class="body-lrg">
-		Bank of America wanted to create budgeting tools to help its customers understand their spending habits and find ways to make better financial decisions day-to-day. 
+		With their resources stretched and their days spent focusing on the community, the MBHP team had little time to worry about the visual consistency of their many publications.
 		</p>
 		<p class="body">
-		Most people want to spend less, but figuring out where to start saving can be a challenge. Bank of America provides its customers with spending analysis and budgeting tools, right in their online account.</p>
-		<p class="body">
-		These tools let you see what categories you’re spending on, and helps find ways to cut costs. Most importantly, information is presented in an understandable, human way.
-		</p>
+		MBHP wanted to present a more cohesive image by bringing their materials under a single visual identity system. With no in-house designers, little time and budget for redesigns, and a lot of existing collateral, the identity system we would create needed to be contemporary but also allow for a phased roll-out.</p>
 	</div>
 	<aside class="aside body-light">
-		My role: UX Designer<br>
-		at DigitasLBi<br>
-		Team: UX/Creative Director, UX Lead Designers, Visual Designers, Business Analysts, and Project Managers
+		My role: Lead Designer<br>
+		as a Volunteer Freelancer
 	</aside>
-</div>
-
-<div class="content-wrapper">
-	<div class="image">
-		<img src="assets/projects/bofa-budgeting/savings.jpg">
-	</div>
-</div>
-<div class="content-module content-tile overlap-top">
-	<div class="main">
-	<h3 class="alt">User Journey Mapping</h3>
-	<p class="body">
-	To create the budgeting tool, we needed to understand how people were using their accounts. Based on the data we had about the bank’s users, we created three high-level user journeys for representative user groups. These let us see when and why users were logging into their online banking accounts, and helped the team brainstorm new functionality that would be the most useful.
-	</p>
-	</div>
-	<div class="aside cta">
-		<a href="">
-		<div class="button">
-		see the full user journeys
-		</div>
-		</a>
-	</div>
-</div>
-
-<div class="content-module content-tile w-image">
-	<div class="image">
-	<img src="assets/projects/bofa-budgeting/dash-1.jpg">
-	</div>
-
-	<div class="main">
-	<h3 class="alt">UI Design</h3>
-	<p class="body">
-	The budgeting tool visual design needed to be clean and inviting: financials can already be a daunting subject and we didn’t want to freak anyone out. Large, colorful graphics highlighted important basic information, with easy ways for users to dig in further. 
-	</p>
-	</div>
 </div>
 
 <div class="content-module content-tile">
 	<div class="main">
-	<h3 class="alt">Usability Testing</h3>
+	<h3 class="alt">The Challenges</h3>
 	<p class="body">
-	Once the visual comps were in good shape, we used an Invision prototype to test on usertesting.com. We wanted to get users’ overall impressions, and gauge their ability to navigate our workflows. Overall, users enjoyed the tools and found them easy to use!
+	The identity system had to be easy to use for the small in-house marketing team, and the players on the ground: in the community and corporate board rooms.</p>
+	<p class="body">
+	The system needed flexibility to support messaging for multiple demographics. For funders and decision-makers, a professional and contemporary feel, able to extend to handouts and Powerpoint presentations. For participants and internal audiences, the system needed to be approachable and visually consistent.
+	</p>
+	<p class="body">
+	And, as mentioned, it needed to incorporate existing visual conventions into a single system that would be a natural extension of the existing materials.
+	</p>
+	<p class="body-lrg">
+	Our primary goal: to expand MBHP’s visual identity, and create an easy-to-use guide and system of reusable elements.
+	</p>
+	<p class="body-lrg">
+	Here’s what we covered:
 	</p>
 	</div>
 </div>
 
-<div class="content-module content-tile overlap-bottom">
+
+
+<div class="content-module content-tile w-image">
+	<div class="image">
+	<img src="assets/projects/mbhp/grid.png">
+	</div>
+
 	<div class="main">
-	<h3 class="alt">Spending Insights</h3>
+	<h3 class="alt">Grid System</h3>
 	<p class="body">
-	One of the goals of the project was to bring helpful articles from Bank of America’s education site, Better Money Habits, into user accounts. We did this by creating ‘insights’ based on the user’s spending habits that would provide links to Better Money Habits articles if relevant.</p> 
-	<p class="body">
-	We defined logic for the insights by gathering the different data points we could get on user spending, consulting with tech people to find out what was feasible, and considering what information from this we could provide to users that would be helpful. </p>
-	<p class="body">
-	These insights were broken down by user action. The most common actions were awareness (no immediate action, but helps the user understand their spending habits), set a budget, or save a surplus from a budgeted category. This allowed us to choose with which insights Better Money Habits content would be most relevant.
+	Without an underlying grid structure, colors, patterns, and typefaces can easily become meaningless decoration. The grid outlines how to consistently structure design elements throughout all MBHP’s collateral.
 	</p>
 	</div>
-	<div class="aside">
+</div>
 
+
+
+<div class="content-module content-tile w-image">
+	<div class="image">
+	<img src="assets/projects/mbhp/fonts.png">
+	</div>
+
+	<div class="main">
+	<h3 class="alt">Typography</h3>
+	<p class="body">
+	Due to the lack of in-house design resources, choosing typefaces that improved the brand but were also readily available was a challenge.
+	</p>
+	<p class="body">
+	Fallback typefaces were also specified in the case of EXTREMELY limited resources and, of course, email.
+	</p>
 	</div>
 </div>
+
+
+
+<div class="content-module content-tile w-image">
+	<div class="image">
+	<img src="assets/projects/mbhp/colors.png">
+	</div>
+
+	<div class="main">
+	<h3 class="alt">Colors</h3>
+	<p class="body">
+	MBHP’s existing red was in wide use, and would serve as a way to tie older material to the new visual identity. But they needed additional options to help customize designs while keeping a consistent look-and-feel; the palette was expanded to provide additional options for different audiences.
+	</p>
+	</div>
+</div>
+
 
 <div class="content-wrapper">
 	<div class="image">
-		<img src="assets/projects/bofa-budgeting/project-sample-2.jpg">
+		<img src="assets/projects/mbhp/hero.jpg">
+	</div>
+</div>
+<div class="content-module content-tile overlap-top">
+	<div class="main">
+	<h3 class="alt">Photos &amp; Patterns</h3>
+	<p class="body">
+	Photos are an essential part of the identity, helping to convey the very human brand of MBHP. Photo treatments and various iconography-based patterns were introduced to create visual interest and allow for a multitude of visual combinations, all within the same visual style.
+	</p>
 	</div>
 </div>
 
+
+
+<div class="content-wrapper">
+	<div class="image">
+		<img src="assets/projects/mbhp/samples.jpg">
+	</div>
+</div>
+<div class="content-module content-tile overlap-top">
+	<div class="main">
+	<h3 class="alt">Design Samples</h3>
+	<p class="body">
+	Photos are an essential part of the identity, helping to convey the very human brand of MBHP. Photo treatments and various iconography-based patterns were introduced to create visual interest and allow for a multitude of visual combinations, all within the same visual style.
+	</p>
+	</div>
+</div>
+
+
+
+<div class="content-wrapper">
+	<div class="image">
+		<img src="assets/projects/mbhp/hero.jpg">
+	</div>
+</div>
 <div class="content-module final overlap-top overlap-bottom">
 	<h3>The Finished Product</h3>
 	<p class="body">If you have a bank of America account, you can see the tools in action today. Log in and check them out under your accounts in the app or on the desktop site.</p>
 </div>
 
-<div class="content-wrapper">
-	<div class="image">
-		<img src="assets/projects/bofa-budgeting/dash-1.jpg">
-	</div>
-</div>
+
 
 <div class="content-module related-projects">
 	<h4 class="link heading">More Projects</h4>
 
 	<div class="projects flex">
 
-	<div class="project-tile third dd-badging">
+	<div class="project-tile third veritas-visuals">
 	<div class="image">
-		<a href="dd-badging.html">
+		<a href="veritas-visuals.html">
 		<div class="text-wrap">
 		<div class="text">
-		<h4 class="link">App Badging Syntax</h4>
-		<div class="body-subhead">for Dunkin Donuts</div>
+		<h4 class="link">Visual Concepts</h4>
+		<div class="body-subhead">for Veritas Genetics</div>
 		</div>
 		</div>
 		</a>
 	</div>
 	</div>
 
-	<div class="project-tile third mbhp">	
+	<div class="project-tile third me-brochure">
 		<div class="image">
-			<a href="mbhp.html">
+			<a href="me-digital-brochure.html">
 			<div class="text-wrap">
 			<div class="text">
-			<h4 class="link">Visual Identity System</h4>
-			<div class="body-subhead">for MBHP</div>
+			<h4 class="link">Digital Brochure</h4>
+			<div class="body-subhead">for Merrill Edge</div>
 			</div>
 			</div>
 			</a>
